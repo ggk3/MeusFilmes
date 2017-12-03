@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_ordena_alfabetico"
+        android:icon="@mipmap/ic_sort"
+        android:title="Ordenar de A a Z"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_ordena_data"
+        android:icon="@mipmap/ic_date"
+        android:title="Ordenar por Data"
+        app:showAsAction="ifRoom" />
+</menu>
